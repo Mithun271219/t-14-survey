@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <div class="row-cols-1 text-sm-left text-center">
+                    <h5>Name <span>*</span></h5>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-sm-left text-center">
+                    <input type="text" name="name" id="fir" required><br>
+                    <label for="fir">First</label>
+                </div>
+                <div class="col-md-4 text-sm-left text-center">
+                    <input type="text" name="name" id="las"><br>
+                    <label for="las">Last</label>
+                </div>
+            </div>
+            <div class="row-cols-md-1 text-sm-left text-center">
+                <label for="email"><h5>Email <span>*</span></h5></label>
+            </div>
+            <div class="row-cols-md-1 text-sm-left text-center">
+                <input type="email" name="email" id="email" required style="width: 300px;">
+            </div>
+            <div class="row-cols-1">
+                <div class="row-md-4" ><h5> Your Experiance<span>*</span></h5></div>
+                <div class="col-md-4">
+                    <div class="rating">
+                        <input type="radio" name="exp" id="1"><label for="1"></label>
+                        <input type="radio" name="exp" id="2"><label for="2"></label>
+                        <input type="radio" name="exp" id="3"><label for="3"></label>
+                        <input type="radio" name="exp" id="4"><label for="4"></label>
+                        <input type="radio" name="exp" id="5"><label for="5"></label>
+                    </div>
+                </div>
+            </div>   
+            <div class="row-cols-1"><h5>How satisfied are you with <span>*</span> </h5></div>
+            <div class="row" >
+                <div class="col-2"></div>
+                <div class="col-2"><label for="vu"></label>Very Unsatisfied</div>
+                <div class="col-2"><label for="u "></label>Unsatisfied</div>
+                <div class="col-2"><label for="n "></label>Neutral</div>
+                <div class="col-2"><label for="s "></label>Satisfied</div>
+                <div class="col-2"><label for="vs"></label>Very Satisfied</div>
+            </div>
+            <div class="row" style="background-color: rgb(228, 225, 222);">
+                <div class="col-2"><label for="Purchase">Purchase</label></div>
+                <div class="col-2"><input type="radio" name="Purchase" id="vu"></div>
+                <div class="col-2"><input type="radio" name="Purchase" id="u "></div>
+                <div class="col-2"><input type="radio" name="Purchase" id="n "></div>
+                <div class="col-2"><input type="radio" name="Purchase" id="s "></div>
+                <div class="col-2"><input type="radio" name="Purchase" id="vs"></div>
+            </div>
+            <div class="row">
+                <div class="col-2"><label for="Service">Service</label></div>
+                <div class="col-2"><input type="radio" name="Service" id="vu"></div>
+                <div class="col-2"><input type="radio" name="Service" id="u "></div>
+                <div class="col-2"><input type="radio" name="Service" id="n "></div>
+                <div class="col-2"><input type="radio" name="Service" id="s "></div>
+                <div class="col-2"><input type="radio" name="Service" id="vs"></div>
+            </div>
+            <div class="row" style="background-color: rgb(228, 225, 222);">
+                <div class="col-2"><label for="Overall">Overall</label></div>
+                <div class="col-2"><input type="radio" name="Overall" id="vu"></div>
+                <div class="col-2"><input type="radio" name="Overall" id="u "></div>
+                <div class="col-2"><input type="radio" name="Overall" id="n "></div>
+                <div class="col-2"><input type="radio" name="Overall" id="s "></div>
+                <div class="col-2"><input type="radio" name="Overall" id="vs"></div>
+            </div>
+            <div class="row-cols-1"><h5>How likely are you to <span>*</span> </h5></div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-2"><label for="vu"></label>Very Unsatisfied</div>
+                <div class="col-2"><label for="u "></label>Unsatisfied</div>
+                <div class="col-2"><label for="n "></label>Neutral</div>
+                <div class="col-2"><label for="s "></label>Satisfied</div>
+                <div class="col-2"><label for="vs"></label>Very Satisfied</div>
+            </div>
+            <div class="row" style="background-color: rgb(228, 225, 222);">
+                <div class="col-2"><label for="Purchase">Buy again</label></div>
+                <div class="col-2"><input type="radio" name="Purchase" id="vu"></div>
+                <div class="col-2"><input type="radio" name="Purchase" id="u "></div>
+                <div class="col-2"><input type="radio" name="Purchase" id="n "></div>
+                <div class="col-2"><input type="radio" name="Purchase" id="s "></div>
+                <div class="col-2"><input type="radio" name="Purchase" id="vs"></div>
+            </div>
+            <div class="row">
+                <div class="col-2"><label for="Service">Recomand to others</label></div>
+                <div class="col-2"><input type="radio" name="Service" id="vu"></div>
+                <div class="col-2"><input type="radio" name="Service" id="u "></div>
+                <div class="col-2"><input type="radio" name="Service" id="n "></div>
+                <div class="col-2"><input type="radio" name="Service" id="s "></div>
+                <div class="col-2"><input type="radio" name="Service" id="vs"></div>
+            </div>
+            <div class="row " style="background-color: rgb(228, 225, 222);">
+                <div class="col-2"><label for="Overall">Recomand company</label></div>
+                <div class="col-2"><input type="radio" name="Overall" id="vu"></div>
+                <div class="col-2"><input type="radio" name="Overall" id="u "></div>
+                <div class="col-2"><input type="radio" name="Overall" id="n "></div>
+                <div class="col-2"><input type="radio" name="Overall" id="s "></div>
+                <div class="col-2"><input type="radio" name="Overall" id="vs"></div>
+            </div>
+            <div class="row-cols-1">
+                <label for="comment"><h5>Additional comments or suggestions</h5></label><br>
+                <textarea name="" id="comment" cols="40" rows="5"></textarea>
+            </div>
+            <div class="row-cols-1 text-md-left text-center "><input type="submit" value="Submit" ></div>
+        </div>
+    </div>
+</body>
+</html>

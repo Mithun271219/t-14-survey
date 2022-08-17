@@ -1,0 +1,50 @@
+.box{
+    background-color: rgba(198, 203, 220, 0.87);
+    margin: 10px;
+}
+span{
+    color: red;
+}
+.rating{
+    text-align: left;
+    direction: rtl;
+    margin-left: 30px;
+
+}
+.rating input{
+    display: none;
+}
+.rating label{
+    display: inline-block;
+    width: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.rating label:before{
+    content: "\2605";
+    display: inline-block;
+    position: absolute;
+}
+.rating label:after{
+    content: "\2605";
+    display: inline-block;
+    position: absolute;
+    color: rgb(250, 250, 33);
+    opacity: 0;
+}
+.rating label:hover:after,
+.rating label:hover~label:after,
+.rating input:checked~label:after{
+    opacity: 1;
+}
+.col-2{
+    text-align: center;
+}
+h5{
+    position: relative;
+    padding-top: 10px;
+}
+
+
+
+
